@@ -1,23 +1,26 @@
-**Objective:**  
+# Objective:  
 To study fundamental concepts of unsupervised learning. As part of the practical work, it is required to:
 
 1. Evaluate theoretical aspects of the k-means clustering algorithm
 2. Implement the algorithm using an available programming language
 
 
-**Implementation Requirements:**  
+# Implementation Requirements:  
 • The practical work involves using Python programming language  
 • Utilization of publicly available libraries (e.g., numpy, matplotlib)  
 • Quality assessment of the algorithm's performance
 
-**Task Description:**  
+# Task Description:
 The assignment requires implementing the k-means algorithm using OOP principles in Python. The implementation must include:
 
 - Functions for calculating centroids
 - Capability to cluster new data
 - Data visualization on a two-dimensional plane
 
-### **Introduction**
+
+
+
+### Introduction
 
 In the era of rapidly growing data volumes and the need for efficient processing, machine learning algorithms have gained significant popularity due to their ability to automate data analysis and uncover hidden patterns. One of the most essential tasks in data analysis is **clustering**-the automatic grouping of objects based on similarity.
 
@@ -59,8 +62,6 @@ The **k-means algorithm** is one of the most widely used clustering methods. I
     - Centroids stabilize (no further changes), **or**
     - A stopping criterion is met (e.g., max iterations).
 
-
-![[Pasted image 20250712153935.png]]
 
 
 ### **k-means++ Algorithm**
@@ -109,7 +110,7 @@ Despite these constraints, **k-means and k-means++ remain widely adopted and ef
 3. **Evaluate cluster stability** (e.g., via multiple runs with different initializations).
 
 
-Listing of code:
+# Listing of code:
 ```python
 from typing import Iterable, List
 
